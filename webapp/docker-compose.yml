@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  myme-chat:
+    build: .
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    volumes:
+      - whatsapp_data:/app/.wwebjs_service
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+
+volumes:
+  whatsapp_data:

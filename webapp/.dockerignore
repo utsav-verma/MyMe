@@ -1,0 +1,12 @@
+node_modules
+.next
+.git
+.gitignore
+README.md
+.env.local
+.wwebjs_auth_*
+.wwebjs_cache
+.wwebjs_service
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

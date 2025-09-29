@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# WhatsApp Web.js session data
+webapp/.wwebjs_auth/
+webapp/.wwebjs_cache/
+webapp/.wwebjs_service/
+webapp/.wwebjs_diagnostic/
+*/.wwebjs_*/
+**/.wwebjs_*/
+
+# iOS WhatsApp service data
+ios/.wwebjs_auth/
+ios/.wwebjs_cache/
+ios/.wwebjs_service/
+ios/.wwebjs_diagnostic/
+ios/.wwebjs_ios/
+
+# Build directories
+webapp/.next/
+ios/.next/
+ios/out/
+webapp/out/
+
+# Archive folder (development files)
+archive/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/

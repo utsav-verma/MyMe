@@ -1,0 +1,13 @@
+{
+  "name": "ios",
+  "version": "1.0.0",
+  "description": "MyMe WhatsApp iOS App",
+  "devDependencies": {
+    "@react-native-community/cli": "^20.0.2"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/ios": "^7.4.3"
+  }
+}

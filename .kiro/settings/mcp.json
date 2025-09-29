@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "brave-search": {
+      "command": "uvx",
+      "args": ["mcp-server-brave-search"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [],
+      "disabledTools": []
+    },
+    "web-scraper": {
+      "command": "uvx",
+      "args": ["mcp-server-web-scraper"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [],
+      "disabledTools": []
+    }
+  }
+}
